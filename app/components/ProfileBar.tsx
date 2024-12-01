@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ProfileBar = () => {
   return (
-    <div className='md:w-3/4 xl:w-full mx-5 flex flex-col justify-start items-center bg-white px-5 rounded-xl drop-shadow-lg'>
+    <div className='md:w-3/4 xl:w-full mx-5 flex flex-col justify-start items-center bg-white px-5 rounded-xl drop-shadow-lg md:mt-0 mt-10'>
         <div>
             <Image className='rounded-full w-[200px] h-[200px] flex items-center justify-center my-5 bg-zinc-100' src={pic} alt='profile picture' />
         </div>

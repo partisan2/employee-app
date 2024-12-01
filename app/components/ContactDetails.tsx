@@ -2,9 +2,9 @@ import React from 'react'
 
 const ContactDetails = () => {
   return (
-    <div className='my-5 mx-10 px-5'>
+    <div className='my-5 md:mx-10 md:px-5'>
         <h1 className='text-lg py-2'>Contact Information</h1>
-        <table className='md:w-[1000px] xl:w-[800px] mx-4'>
+        <table className='md:w-[1000px] xl:w-[800px] md:mx-4'>
             <tbody>
                 <tr>
                     <td colSpan={2} className='py-2'><label className=''>Address</label></td>

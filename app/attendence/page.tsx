@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import NavBar from '../components/NavBar'
 import AttendenceTable from '../components/AttendenceTable'
@@ -8,7 +7,7 @@ const page = () => {
   return (
     <div>
         <NavBar />
-        <div className='min-h-screen w-full flex bg-zinc-100'>
+        <div className='min-h-screen w-full flex md:flex-row flex-col relative md:static top-20 bg-zinc-100'>
             <div>
                 <AttendenceTable />
             </div>

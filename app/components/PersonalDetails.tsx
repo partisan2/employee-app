@@ -4,9 +4,9 @@ import React from 'react'
 const PersonalDetails = () => {
   return (
     <div className=''>
-        <div className='my-5 mx-10 px-5'>
+        <div className='my-5 md:mx-10 md:px-5'>
             <h1 className='text-lg py-2'>Personal Information</h1>
-            <table className='md:w-[1000px] xl:w-[800px] mx-4'>
+            <table className='md:w-[1000px] xl:w-[800px] md:mx-4'>
                 <tbody>
                     <tr>
                         <td className='py-2'><label className=''>First Name</label></td>
