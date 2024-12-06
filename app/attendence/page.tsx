@@ -8,7 +8,7 @@ const page = () => {
     <div>
         <NavBar />
         <div className='min-h-screen w-full flex md:flex-row flex-col relative md:static top-20 bg-zinc-100'>
-            <div>
+            <div className=' md:mb-5'>
                 <AttendenceTable />
             </div>
             <div className='min-h-full'>
