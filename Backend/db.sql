@@ -3,3 +3,5 @@ CREATE TABLE `employeeapp`.`employee` ( `empId` VARCHAR(9) NOT NULL , `firstName
 
 
 CREATE TABLE `employeeapp`.`employee_details` ( `empId` VARCHAR(9) NOT NULL , `empDesignation` VARCHAR(60) NOT NULL , `company` VARCHAR(60) NOT NULL , `department` VARCHAR(60) NOT NULL , `empType` VARCHAR(60) NOT NULL , `workLocation` VARCHAR(60) NOT NULL , PRIMARY KEY (`empId`)) ENGINE = InnoDB;
+
+CREATE TABLE `employeeapp`.`employee_contact` ( `empId` VARCHAR(9) NOT NULL , `mPhone` VARCHAR(10) NOT NULL , `fPhone` VARCHAR(10) NOT NULL , `email` VARCHAR(60) NOT NULL , `emergencyNo` VARCHAR(10) NOT NULL , PRIMARY KEY (`empId`)) ENGINE = InnoDB;
