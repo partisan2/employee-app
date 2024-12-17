@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <div className="w-full h-full flex md:flex-row-reverse flex-col md:justify-between relative md:static top-20 bg-zinc-100 mt-4">
+      <div className="min-h-screen w-full flex md:flex-row-reverse flex-col md:justify-between relative md:static top-20 bg-zinc-100 mt-4">
         <div>
           <Notifications />
           <Schedule />
